@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CalculadoraCientifica.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora Científica</h1>
+    </header>
+    <section>
+        <header>
+            <h2>Input</h2>
+        </header>
+        <label for="pantalla">Input</label>
+        <input id="pantalla" type="text" disabled="">
+        <textarea id="pantalla" disabled=""></textarea>
+        <button class="button" type="button" onclick="calculadora.mc()">MC</button>
+        <button class="button" type="button" onclick="calculadora.mrc()">MR</button>
+        <button class="button" type="button" onclick="calculadora.mMas()">M+</button>
+        <button class="button" type="button" onclick="calculadora.mMenos()">M-</button>
+        <button class="button" type="button" onclick="calculadora.ms()">MS</button>
+        <button class="button" type="button" onclick="calculadora.pow2()">x&sup2;</button>
+        <button class="button" type="button" onclick="calculadora.pow()">x&#x207f;</button>
+        <button class="button" type="button" onclick="calculadora.sin()">sin</button>
+        <button class="button" type="button" onclick="calculadora.cos()">cos</button>
+        <button class="button" type="button" onclick="calculadora.tan()">tan</button>
+        <button class="button" type="button" onclick="calculadora.sqrt()">√</button>
+        <button class="button" type="button" onclick="calculadora.powBase10()">10&#x207f;</button>
+        <button class="button" type="button" onclick="calculadora.log()">log</button>
+        <button class="button" type="button" onclick="calculadora.exp()">Exp</button>
+        <button class="button" type="button" onclick="calculadora.mod()">Mod</button>
+        <button class="button" type="button" onclick="calculadora.shift()">&uarr;</button>
+        <button class="button" type="button" onclick="">VAC</button>
+        <button class="button" type="button" onclick="calculadora.c()">C</button>
+        <button class="button" type="button" onclick="calculadora.borrar()">DEL</button>
+        <button class="button" type="button" onclick="calculadora.division()">&div;</button>
+        <button class="button" type="button" onclick="calculadora.pi()">&Pi;</button>
+        <button class="button number" type="button" onclick="calculadora.digito(7)">7</button>
+        <button class="button number" type="button" onclick="calculadora.digito(8)">8</button>
+        <button class="button number" type="button" onclick="calculadora.digito(9)">9</button>
+        <button class="button" type="button" onclick="calculadora.multiplicacion()">*</button>
+        <button class="button" type="button" onclick="calculadora.fact()">n!</button>
+        <button class="button number" type="button" onclick="calculadora.digito(4)">4</button>
+        <button class="button number" type="button" onclick="calculadora.digito(5)">5</button>
+        <button class="button number" type="button" onclick="calculadora.digito(6)">6</button>
+        <button class="button" type="button" onclick="calculadora.resta()">-</button>
+        <button class="button" type="button" onclick="">VAC</button>
+        <button class="button number" type="button" onclick="calculadora.digito(1)">1</button>
+        <button class="button number" type="button" onclick="calculadora.digito(2)">2</button>
+        <button class="button number" type="button" onclick="calculadora.digito(3)">3</button>
+        <button class="button" type="button" onclick="calculadora.suma()">+</button>
+        <button class="button" type="button" onclick="calculadora.leftBracket()">(</button>
+        <button class="button" type="button" onclick="calculadora.rightBracket()">)</button>
+        <button class="button number" type="button" onclick="calculadora.digito(0)">0</button>
+        <button class="button" type="button" onclick="calculadora.punto()">.</button>
+        <button class="button" type="button" onclick="calculadora.igual()">=</button>
+    </section>
+    <script src="CalculadoraCientifica.js"></script>
+</body>
+
+</html>
