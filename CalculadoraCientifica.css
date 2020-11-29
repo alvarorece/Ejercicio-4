@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 body {
     background-color: #ffc1e3;
@@ -25,9 +25,8 @@ section {
     padding-bottom: 2em;
 }
 
-
-label {
-    visibility: hidden;
+section header {
+    display: none;
 }
 
 section textarea {
