@@ -29,6 +29,10 @@ section header {
     display: none;
 }
 
+label {
+    display: none;
+}
+
 section textarea {
     resize: none;
     font-size: x-large;
