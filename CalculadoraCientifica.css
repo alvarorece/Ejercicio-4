@@ -5,6 +5,7 @@
 body {
     background-color: #ffc1e3;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 h1 {
@@ -54,6 +55,14 @@ section textarea {
     border: none;
     border-radius: 15px;
     box-shadow: 0 5px #999;
+}
+
+.button.shift {
+    grid-column-start: span 2;
+}
+
+.button.br {
+    grid-row-start: span 2;
 }
 
 .button:hover {
